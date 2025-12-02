@@ -22,7 +22,6 @@ def is_repeated_sequence(num):
 for data in cleandata:
     for current_id in range(data[0], data[1] + 1):
         if is_repeated_sequence(current_id):
-            print('Invalid ID', current_id)
             invalid_ids += current_id
 
 print(invalid_ids)
